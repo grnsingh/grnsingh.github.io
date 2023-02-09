@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(36, 34, 34);
+    color: beige;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top-break {
+    border-top: 3px solid beige;
+}
+
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+a:hover {
+    color: rgb(7, 3, 3);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    padding: 10px;
+    color: beige
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexbox-container {
+    display: flex;
+    color: rgb(221, 233, 244);
+    flex-flow: row;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.flexbox-container-2 {
+    max-height: 98%;
+    width: 100%;
+}
+
+.flexbox-container-Skills {
+    max-height: 98%;
+    width: 40%;
+}
+
+aside {
+    padding: 15px;
+}
+
+.tommy-info {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        position: relative;
+        bottom: 1%;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        border-radius: 50%;
+        height: 125px;
+        width: 125px;
+    }
+    footer {
+        position: relative;
+        bottom: 1%;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flexbox-container {
+        display: flex;
+        color: rgb(221, 233, 244);
+        flex-flow: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .flexbox-item-2 {
+        max-height: 98%;
+        width: 100%;
+        align-content: center;
+        padding: auto;
+        text-align: justify;
+    }
+    #table-contents {
+        display: flex;
+        justify-content: left;
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        scroll-padding-left: 20px;
+        scroll-padding-right: 20px;
+        width: 100%;
+    }
+    a {
+        padding: 3px;
+        scroll-padding-left: auto;
+        scroll-padding-right: auto;
+        color: beige
+    }
+    img {
+        border-radius: 50%;
+        height: 175px;
+        width: 175px;
+    }
+    footer {
+        position: relative;
+        bottom: 1%;
+        text-align: center;
+        width: 100%;
+    }
+}
